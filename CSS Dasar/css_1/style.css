@@ -1,0 +1,67 @@
+.external {
+    text-align: center;
+}
+
+body {
+    background:url(./img/bromo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.satu {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+    size: 20in;
+}
+
+p.satu {
+    text-align: left;
+    font-size: 20pt;
+
+}
+
+h2.satu {
+    font-family: 'Times New Roman', Times, serif;
+    color: hs(blue, green, brown);
+    font-size: 30pt;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    width: 20%;
+}
+
+p.dua {
+    background-color: white ;
+    width: 90%;
+    text-align: left;
+}
+
+b.satu {
+    color: white;
+    background-color: black;
+    width: 90%;
+    
+}
+
+p.belajar {
+    background-color: white;
+    width: 60%;
+}
+
+h2.kedua {
+    background-color: white;
+    width: 20%;
+}
+
+article.satu {
+    background-color:rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+}
+
+h2.ketiga {
+    background-color: white;
+    width: 20%;
+}
