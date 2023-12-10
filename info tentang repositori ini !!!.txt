@@ -1,0 +1,3 @@
+Repositori ini mengalami masalah saat deploy dan website saya di tandai berbahaya 
+sehingga saya harus hapus semua project saya dari github (Untuk semetara waktu). 
+Maaf ya semuanya 😔🙏
