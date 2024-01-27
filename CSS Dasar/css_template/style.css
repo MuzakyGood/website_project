@@ -1,0 +1,49 @@
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0 50px;
+    /* background-color:greenyellow ; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #efefef;
+
+    border: 1px solid;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+    /* border: 1px solid; */
+}
+
+ul li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+#home {
+    justify-content: space-between;
+}
+
+div.satu {
+    display: flex;
+    padding: 10px;
+    height: 10vh;
+    position: fixed;
+    left: 1090px;
+    border: 1px solid black;
+}
