@@ -28,7 +28,7 @@
 </details>
 
 # ***Template HTML***
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
