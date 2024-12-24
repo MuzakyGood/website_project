@@ -87,6 +87,23 @@ div.desc {
     padding: 5px 15px 15px 15px;
 }
 
+p.note-for {
+    text-align: justify;
+    background-color: rgb(251, 255, 0);
+    padding: 15px;
+    background-image: url("../img/question_icon.png"); 
+    background-repeat: no-repeat; 
+    background-position: 10px center;
+    background-size: 25px 25px;  
+    padding-left: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.note-for:hover {
+    background-color: rgb(255, 255, 96);
+}
+
 button.link-official {
     color: black;
     background-color: lightblue;
