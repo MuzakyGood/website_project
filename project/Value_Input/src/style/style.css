@@ -1,0 +1,66 @@
+body.All-Container{
+    background-color: blue;
+    color: white;
+    outline-color: black;
+    text-shadow: 2px 3px black;
+}
+
+div.Heavy-Container {
+    border: solid;
+    background-color: darkblue;
+    margin: 50px;
+}
+
+div.HeavyTitle {
+    text-align: center;
+}
+
+div.Extra-Container {
+    margin: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input:hover {
+    padding: 15px 25px;
+    border: solid 3px black;
+}
+
+button {
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    font-size: 21px;
+    background-color: greenyellow;
+    color: black;
+    border: 2px black solid;
+}
+
+div.ResultsSelection {
+    color: white;
+    background-color: black;
+    border: Solid white 1px;
+}
+
+div.InResultsSelection {
+    margin: 20px 20px;
+} 
+
+p.CreateBye {
+    text-align: end;
+}
