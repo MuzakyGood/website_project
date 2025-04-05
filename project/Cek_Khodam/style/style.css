@@ -1,0 +1,171 @@
+::selection {
+    color: white;
+    background-color: rgb(255, 0, 200);
+    text-shadow: black 2px 2px 2px;
+}
+
+::placeholder {
+    color: black;
+    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+}
+
+body.all_contain {
+    background-image: url("https://th.bing.com/th/id/OIP.taqeSGlptjmfP5Pune-TNQHaE8?rs=1&pid=ImgDetMain");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+div.main_contain {
+    margin: 30px;
+    width: 400px;
+    height: 300px;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px); 
+    border-radius: 10px;
+    transition: backdrop-filter 0.8s;
+}
+
+div.main_contain:hover {
+    backdrop-filter: blur(10px); 
+}
+
+div.menu_contain {
+    margin: 30px;
+}
+
+div.ex_menu {
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: text;
+    transition: border 0.1s;
+}
+
+input:focus {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+}
+
+input[type=text]:hover {
+    color: white;
+    background: rgb(0, 102, 255);
+    border: 2px solid #0400ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button.btn1_style {
+    color: darkgreen;
+    border: none;
+    background-color: greenyellow;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: color 2s;
+    cursor: pointer;
+} 
+
+button.btn2_style {
+    color: rgb(255, 0, 0);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 4px;
+    transition: color 2s;
+    cursor: pointer;
+}
+
+button.btn1_style:hover {
+    color: greenyellow;
+    background-color: darkgreen;
+    font-size: 20px;
+}
+
+button.btn2_style:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.All_Total_Khodam_Style {
+    width: 200px;
+    background-color: rgb(2, 42, 128);
+    border-radius: 20px;
+}
+
+.All_Total_Khodam_Style:hover {
+    cursor: pointer;
+    transition: 1s;
+    animation: gravity 1s infinite;
+}
+
+@keyframes gravity {
+    0% { background-color: rgb(2, 42, 128); }
+    25% { background-color: rgb(103, 9, 211); }
+    50% { background-color: rgb(103, 2, 128); }
+    55% { background-color: rgb(206, 2, 189); }
+    75% { background-color: rgb(255, 0, 140); }
+    100% { background-color: rgb(2, 42, 128); }
+}
+
+.Total_Khodam_Style {
+    margin: 10px;
+}
+
+.all_info_results {
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    color: white;
+    background-color: rgb(4, 4, 92);
+    border-radius: 10px;
+    transition: 1s;
+    animation: shakeinfo 1s infinite;
+}
+
+@keyframes shakeinfo {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-5px); }
+    50% { transform: translateY(5px); }
+    75% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+.view_info_results {
+    margin: 20px;
+}
+
+.all_results_contain {
+    width: 395px;
+    margin: 1px;
+    background-color: purple;
+    border: white solid 1px;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transform: rotateX(86deg);
+    transition: 1s;
+}
+
+div.small_results_contain {
+    color: white;
+    margin: 30px;
+}
+
+.all_results_contain:hover {
+    transform-style: preserve-3d;
+    transform: none;
+}
