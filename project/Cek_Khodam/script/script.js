@@ -4,7 +4,7 @@ import anomali_khodam from "./database/datakhodam.js";"./database/datakhodam.js"
 let getinputress = document.getElementById("btn_khodam");
 let getinputclear = document.getElementById("btn2_khodam");
 
-document.getElementById("total_khodam").innerText = "Total Khodam Database: " + anomali_khodam.length;
+document.getElementById("total_khodam").innerText = "Total Khodam Database: " + anomali_khodam.length + " Card";
 
 getinputress.onclick= function(){
     let getusername = document.getElementById("username");

@@ -12,7 +12,7 @@ const anomali_khodam = [
     "Mas-Mas Ambatukam",
     "Little Boy(Bom Nuklir)",
     "Mafia Sholawat",
-    "Laptop",
+    "Laptop Gaming Teman",
     "Anomali Hitam",
     "Skibidi Gman",
     "Herobrine",
@@ -20,7 +20,9 @@ const anomali_khodam = [
     "Guling Anime",
     "HTML",
     "Windows XP",
-    "Makananmu Kemarin"
+    "Makananmu Kemarin",
+    "Javascript",
+    "Waifu Anda"
 ]
 
 export default anomali_khodam ;
