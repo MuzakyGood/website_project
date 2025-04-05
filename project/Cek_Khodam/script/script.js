@@ -1,5 +1,5 @@
 import { RandomNumber } from "./mathformula/setmath.js";
-import anomali_khodam from "./database/datakhodam.js";"./database/datakhodam.js";
+import anomali_khodam from "./database/datakhodam.js";
 
 let getinputress = document.getElementById("btn_khodam");
 let getinputclear = document.getElementById("btn2_khodam");
