@@ -10,12 +10,55 @@
 }
 
 body.all_contain {
+    position: relative;
     background-image: url("https://th.bing.com/th/id/OIP.taqeSGlptjmfP5Pune-TNQHaE8?rs=1&pid=ImgDetMain");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     height: 100vh; 
-    margin: 0; 
+}
+
+.all_audioplay {
+    position: absolute;
+    top: 495px;
+    color: white;
+    border-radius: 10px;
+    border: dashed white 3px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    background-color: purple;
+    border-image-slice: 1;
+    transition: 1ms;
+    animation: CrossBorder 1s infinite;
+}
+
+@keyframes CrossBorder {
+      0% {
+        border-radius: 10px;
+        border-image: linear-gradient(45deg, red, yellow) 1;
+      }
+      50% {
+        border-radius: 10px;
+        border-image: linear-gradient(45deg, blue, green) 1;
+      }
+      100% {
+        border-radius: 10px;
+        border-image: linear-gradient(45deg, red, yellow) 1;
+      }
+}
+
+.title_music {
+    position: absolute;
+    left: 40px;
+    top: -10px;
+    white-space: nowrap;
+}
+
+.music_animation {
+    position: absolute;
+    top: 2px;
+    left: 210px;
 }
 
 div.main_contain {
@@ -75,7 +118,7 @@ button.btn1_style {
     background-color: greenyellow;
     font-size: 18px;
     border-radius: 4px;
-    transition: color 2s;
+    transition: 2s;
     cursor: pointer;
 } 
 
@@ -85,7 +128,20 @@ button.btn2_style {
     background-color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 4px;
-    transition: color 2s;
+    transition: 2s;
+    cursor: pointer;
+}
+
+button.Audio_Btn {
+    top: 5px;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(138, 3, 120);
+    font-size: 18px;
+    border-radius: 4px;
+    transition: 1s;
     cursor: pointer;
 }
 
@@ -101,9 +157,14 @@ button.btn2_style:hover {
     font-size: 20px;
 }
 
+button.Audio_Btn:hover {
+    background-color: blue;
+    font-size: 20px;
+}
+
 .All_Total_Khodam_Style {
     height: 20px;
-    width: 240px;
+    width: 270px;
     background-color: rgb(2, 42, 128);
     border-radius: 20px;
 }
@@ -127,7 +188,7 @@ button.btn2_style:hover {
     margin: 10px;
 }
 
-.all_info_results {
+div.all_info_results {
     text-align: center;
     margin: 10px;
     width: 250px;
@@ -170,4 +231,12 @@ div.small_results_contain {
     background-color: rgb(128, 0, 128, 0.5);
     transform-style: preserve-3d;
     transform: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
 }

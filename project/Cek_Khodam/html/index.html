@@ -8,6 +8,7 @@
     <title>Cek Khodam</title>
 </head>
 <body class="all_contain">
+    <div class="all_audioplay" id="AudioEffect" style="display: none;"><p class="title_music">Quizziz Classic Theme</p> <img class="music_animation" src="https://cdnl.iconscout.com/lottie/premium/thumb/loader-5478808-4574104.gif" alt="loading_music" height="25" width="25"></div>
     <div class="main_contain">
         <div class="menu_contain">
             <div class="ex_menu">
@@ -18,23 +19,26 @@
                     <input type="text" id="username" placeholder="📝 Full Name 📝">
                     <button class="btn1_style" id="btn_khodam" >💡 Results 💡</button> 
                     <button class="btn2_style" id="btn2_khodam" onclick="">🧹 Clear 🧹</button>
+                    <button class="Audio_Btn" id="PlayButton">🔉 Play Audio 🔉</button>
                     <div class="All_Total_Khodam_Style">
                         <p id="total_khodam" class="Total_Khodam_Style"></p>
                     </div>
                 </div>
-                <p>Copyright by &copy Zach Noland 2025-2026</p>
+                <p style="font-size: 12px;">Copyright by &copy Zach Noland 2025-2026</p>
             </div>
             <br>
         </div>
-        <div class="all_info_results">
+        <div id="Results_card" class="all_info_results" style="display: none;">
             <p id="setinfo_results" class="view_info_results"></p>
         </div>
-        <div class="all_results_contain">
+        <div class="all_results_contain" >
             <div class="small_results_contain">
                 <h3 id="results_khodam"></h3>
             </div>
         </div>
     </div>
+    <p id="All_Error"></p>
+    <audio src="../theme/soundtrack1.mp3" type="audio/mp3" id="ThemeMusic"></audio>
     <script type="module" src="../script/script.js"></script>
 </body>
 </html>
