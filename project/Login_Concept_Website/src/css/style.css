@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navbarBody {
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-image: linear-gradient(to bottom, rgb(108, 1, 209),  rgb(0, 34, 185));
+        border: 3px solid white;
+    }
+
+    .nav1, .nav2, .nav3, .userIcon {
+        color: white;
+    }
+
+    .nav1 {
+        margin: 10px;
+    }
+
+    .nav2 {
+        margin: 10px;
+    }
+
+    .nav3 {
+        margin: 10px;
+    }
+
+    .userIcon {
+        position: relative;
+        left: 5px;
+        width: 28px;
+        height: 28px;
+        border-radius: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../../img/guest_icon.png);
+    }
+
+    .mainPage {
+        width: 100%;
+        min-height: calc(100vh - 60px);;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../../img/coding_vibe.jpg);
+
+        color: white;
+        display: flex;
+        font-size: 2vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-shadow: 2px 2px black;
+    }
+
+    .mainTitle, .quoteTab {
+        position: relative;
+        animation: firstSee 3s ease-in;
+    }
+
+    .quoteTab {
+        width: 55vw;
+        border-radius: 5px;
+        background-color: rgba(168, 167, 167, 0.5);
+    }
+
+    .mainBody {
+       display: flex;
+       flex-direction: row;
+       background-color: darkblue;
+    }
+
+    .mainDesc {
+        margin: 15px;
+        padding: 15px;
+        color: white;
+        width: 29vw;
+        border-radius: 10px;
+        text-align: justify;
+        box-shadow: 2px 2px 5px black;
+        text-shadow: 2px 1px black;
+        background-color: rgba(168, 167, 167, 0.5);
+    }
+
+    .showImage1 {
+        height: 100px;
+        width: 200px;
+        background-size: cover;
+        background-image: url(../../img/objectMapJS.jpg);
+    }
+
+    .endPage {
+        color: white;
+        padding: 10px;
+        display: flex;
+        text-shadow: 2px 1px black;
+        background-image: linear-gradient(to top, rgb(108, 1, 209),  rgb(0, 34, 185));;
+        background-color: rgb(0, 117, 185);
+    }
+
+    @keyframes firstSee {
+        from {
+            opacity: 0%;
+            top: 100px;
+        }
+
+        to {
+            opacity: 100%;
+            top: 0px;
+        }
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
