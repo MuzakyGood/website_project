@@ -12,7 +12,7 @@ const globalVisiter = (btnWeb) => {
 };
 
 // Main Code
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
     const btnGoWeb = [
         document.getElementById('btnWeb1'),
         document.getElementById('btnWeb2'),
