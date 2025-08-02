@@ -5,10 +5,10 @@ const visitTo = (btn, target) => {
 };
 
 const globalVisiter = (btnWeb) => {
-    visitTo(btnWeb[0], "Project/JPCSIM/index.html");
-    visitTo(btnWeb[1], "Project/Value_Input/src/html/index.html");
-    visitTo(btnWeb[2], "Project/Cek_Khodam/html/index.html");
-    visitTo(btnWeb[3], "#");
+    visitTo(btnWeb[0], '../Project/JPCSIM/index.html');
+    visitTo(btnWeb[1], '../Project/Value_Input/src/html/index.html');
+    visitTo(btnWeb[2], '../Project/Cek_Khodam/html/index.html');
+    visitTo(btnWeb[3], '#');
 };
 
 // Main Code
