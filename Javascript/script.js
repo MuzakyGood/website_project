@@ -1,6 +1,6 @@
 const visitTo = (btn, target) => {
     btn.addEventListener('click', () => {
-        window.location.href = target;
+        location.href = target;
     });
 };
 
