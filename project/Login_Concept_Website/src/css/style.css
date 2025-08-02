@@ -16,6 +16,7 @@ body {
 
     .nav1, .nav2, .nav3, .userIcon {
         color: white;
+        text-decoration: none;
     }
 
     .nav1 {
@@ -28,6 +29,18 @@ body {
 
     .nav3 {
         margin: 10px;
+    }
+
+    .nav1:hover {
+        transition: 1s;
+        color: rgb(0, 204, 255);
+        text-shadow: 2px 1px 1px rgb(0, 0, 0);
+    }
+
+    .nav2:hover {
+        transition: 1s;
+        color: rgb(0, 204, 255);
+        text-shadow: 2px 1px 1px rgb(0, 0, 0);
     }
 
     .userIcon {
@@ -73,6 +86,7 @@ body {
     .mainBody {
        display: flex;
        flex-direction: row;
+       justify-content: space-around;
        background-color: darkblue;
     }
 
@@ -88,11 +102,52 @@ body {
         background-color: rgba(168, 167, 167, 0.5);
     }
 
+    .conceptImg1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .showImage1 {
-        height: 100px;
-        width: 200px;
+        margin: 15px;
+        height: 200px;
+        width: 400px;
         background-size: cover;
+        box-shadow: 2px 2px 5px black;
         background-image: url(../../img/objectMapJS.jpg);
+    }
+
+    .descimg1 {
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+
+    .informationBody {
+        display: flex;
+        justify-content: center;
+        background-color: darkblue;
+    }
+
+    .infoWebsite {
+        width: 50vw;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 5px black;
+        background-color: rgba(168, 168, 168, 0.5);
+    }
+    
+    .titleInfo {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 1px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .descInfo {
+        padding: 5px;
+        color: white;
+        text-shadow: 2px 1px black;
+        text-align: justify;
     }
 
     .endPage {

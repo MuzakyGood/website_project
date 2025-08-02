@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="navbarBody">
-        <a href="#" alt="register_account" class="nav1">Register</a>
+        <a href="pages/register.html" alt="register_account" class="nav1">Register</a>
         <a href="#" alt="login_account" class="nav2">Login</a>
         <div class="userIcon"></div>
         <span class="nav3">Guest Account</span>
@@ -31,7 +31,34 @@
                 <i>Note: Do not use your real email when registering on this website!</i>
             </p>
         </div>
-        <div class="showImage1"></div>
+        <div class="conceptImg1">
+            <div class="showImage1"></div>
+            <p class="descimg1">Javascript <b>Map</b> technology array</p>
+        </div>
+    </div>
+    <div class="informationBody">
+        <div class="infoWebsite">
+            <h3 class="titleInfo">How this website works</h3>
+            <p class="descInfo">
+                &nbsp;&nbsp;&nbsp;&nbsp;Starting from the registration page. 
+                On the registration page, 
+                there are 2 forms that can be filled out: <i>Name</i> and <i>Password</i>, 
+                and there is a <i>register button</i>. 
+                The register button when pressed will trigger a <b>Javascript</b> event and 
+                manage the values that have been entered in both input forms.
+                The form containing the username will be made the value in the <b>Map</b>, 
+                while the form containing the password will be made the key in the <b>Map</b> array.
+                If the value is empty, it will fail to execute and display an invalid message.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Next is the login page. Once again there are 2 forms, 
+                <i>Name</i> and <i>Password</i>, and one <i>login button</i>. When the login button is pressed, 
+                it will trigger a <b>Javascript</b> event to manage both forms. The values contained 
+                in the password and name will be matched to see if they exist in the <b>Map</b> array; 
+                if the key (password) and value (name) match, then the page will be redirected back 
+                to the main menu and the guest name will be changed to the one you entered. If it does not match, 
+                it will return a failure message and require the user to fill in the login correctly again.
+            </p>
+        </div>
     </div>
     <div class="endPage">
         <p>Copyright &copy by Zach Noland 2025</p>

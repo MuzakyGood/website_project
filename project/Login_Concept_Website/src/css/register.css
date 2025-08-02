@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../img/userman_UI.jpg);
+}
+
+.mainBar {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.titleMenu {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.lebel, input {
+    margin: 5px 0;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.btnRegister {
+    margin-top: 15px;
+    align-self: center;
+    cursor: pointer;
+    width: 120px;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btnRegister:hover {
+    background-color: #45a049;
+}
