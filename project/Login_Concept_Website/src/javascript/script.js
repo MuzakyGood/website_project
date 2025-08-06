@@ -4,4 +4,6 @@ const data = new BSQL();
 
 document.addEventListener('DOMContentLoaded', () => {
     data.debugShowLog();
+
+    console.log('Status = ', data.getMsg());
 });
