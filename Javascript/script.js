@@ -8,7 +8,7 @@ const globalVisiter = (btnWeb) => {
     visitTo(btnWeb[0], 'project/JPCSIM/index.html');
     visitTo(btnWeb[1], 'project/Value_Input/src/html/index.html');
     visitTo(btnWeb[2], 'project/Cek_Khodam/html/index.html');
-    visitTo(btnWeb[3], '#');
+    visitTo(btnWeb[3], 'project/Login_Concept_Website/src/index.html');
 };
 
 // Main Code

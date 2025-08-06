@@ -25,7 +25,7 @@
             <p>
                 &nbsp;&nbsp;&nbsp;&nbsp;This is a website for testing login and account registration. 
                 The goal is to understand how to create a login and registration system. 
-                All accounts registered are stored in a list structure Map.
+                All accounts registered are stored in a <b>sessionStorage</b>.
                 <br>
                 <br>
                 <i>Note: Do not use your real email when registering on this website!</i>
@@ -33,7 +33,7 @@
         </div>
         <div class="conceptImg1">
             <div class="showImage1"></div>
-            <p class="descimg1">Javascript <b>Map</b> technology array</p>
+            <p class="descimg1">Javascript <b>sessionStorage</b> technology</p>
         </div>
     </div>
     <div class="informationBody">
@@ -46,15 +46,15 @@
                 and there is a <i>register button</i>. 
                 The register button when pressed will trigger a <b>Javascript</b> event and 
                 manage the values that have been entered in both input forms.
-                The form containing the username will be made the value in the <b>Map</b>, 
-                while the form containing the password will be made the key in the <b>Map</b> array.
+                The form containing the username will be made the value in the <b>sessionStorage</b>, 
+                while the form containing the password will be made the keyItem in the <b>sessionStorage</b>.
                 If the value is empty, it will fail to execute and display an invalid message.
                 <br><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;Next is the login page. Once again there are 2 forms, 
                 <i>Name</i> and <i>Password</i>, and one <i>login button</i>. When the login button is pressed, 
                 it will trigger a <b>Javascript</b> event to manage both forms. The values contained 
-                in the password and name will be matched to see if they exist in the <b>Map</b> array; 
-                if the key (password) and value (name) match, then the page will be redirected back 
+                in the password and name will be matched to see if they exist in the <b>sessionStorage</b>; 
+                if the keyItem (password) and value (name) match, then the page will be redirected back 
                 to the main menu and the guest name will be changed to the one you entered. If it does not match, 
                 it will return a failure message and require the user to fill in the login correctly again.
             </p>
@@ -63,6 +63,6 @@
     <div class="endPage">
         <p>Copyright &copy by Zach Noland 2025</p>
     </div>
-    <script src="javascript/script.js"></script>
+    <script src="javascript/script.js" type="module"></script>
 </body>
 </html>
