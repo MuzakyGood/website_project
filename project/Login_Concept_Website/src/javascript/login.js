@@ -5,8 +5,9 @@ const data = new BSQL();
 const dataHandle = (formInput, btnAction, path) => {
     btnAction[0].addEventListener('click', () => {
         if (data.verifyData(formInput[0], formInput[1])) {
-            data.sendMsg('Login Success!');
+            sessionStorage.setItem('saveNickname', formInput[0].value);
 
+            data.sendMsg('Login Success!');
             location.href = path;
         } else {
             formInput[0].value = '';
