@@ -5,6 +5,7 @@ const data = new BSQL();
 const dataHandle = (formInput, btnAction, path) => {
     btnAction[0].addEventListener('click', () => {
         if (data.verifyData(formInput[0], formInput[1])) {
+            sessionStorage.setItem('statusLogin', 'true');
             sessionStorage.setItem('saveNickname', formInput[0].value);
 
             data.sendMsg('Login Success!');

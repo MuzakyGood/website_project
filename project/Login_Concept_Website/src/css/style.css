@@ -14,6 +14,32 @@ body {
         border: 3px solid white;
     }
 
+    .logout {
+        display: none;
+    }
+
+    .newUser {
+        display: inline;
+    }
+
+    .btnLogout {
+        cursor: pointer;
+        margin: 15px;
+        color: white;
+    }
+
+    .btnLogout:hover {
+        transition: 1s;
+        color: rgb(0, 204, 255);
+        text-shadow: 2px 1px 1px rgb(0, 0, 0);
+    }
+
+    /*
+    .nav1, .nav2 {
+        display: none;
+    }
+    */
+
     .nav1, .nav2, .nav3, .userIcon {
         color: white;
         text-decoration: none;
