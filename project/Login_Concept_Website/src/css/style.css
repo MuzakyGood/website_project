@@ -204,6 +204,120 @@ body {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .navbarBody {
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-image: linear-gradient(to bottom, rgb(108, 1, 209),  rgb(0, 34, 185));
+        border: 3px solid white;
+    }
+
+    .logout {
+        display: none;
+    }
+
+    .newUser {
+        display: inline;
+    }
+
+    .btnLogout {
+        cursor: pointer;
+        margin: 15px;
+        color: white;
+    }
+
+    .btnLogout:hover {
+        transition: 1s;
+        color: rgb(0, 204, 255);
+        text-shadow: 2px 1px 1px rgb(0, 0, 0);
+    }
+
+    /*
+    .nav1, .nav2 {
+        display: none;
+    }
+    */
+
+    .nav1, .nav2, .nav3, .userIcon {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav1 {
+        margin: 10px;
+    }
+
+    .nav2 {
+        margin: 10px;
+    }
+
+    .nav3 {
+        margin: 10px;
+    }
+
+    .nav1:hover {
+        transition: 1s;
+        color: rgb(0, 204, 255);
+        text-shadow: 2px 1px 1px rgb(0, 0, 0);
+    }
+
+    .nav2:hover {
+        transition: 1s;
+        color: rgb(0, 204, 255);
+        text-shadow: 2px 1px 1px rgb(0, 0, 0);
+    }
+
+    .userIcon {
+        position: relative;
+        left: 5px;
+        width: 28px;
+        height: 28px;
+        border-radius: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../../img/guest_icon.png);
+    }
+
+    .mainPage {
+        width: 100%;
+        min-height: calc(100vh - 60px);;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../../img/coding_vibe.jpg);
+
+        color: white;
+        display: flex;
+        font-size: 2vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-shadow: 2px 2px black;
+    }
+
+    .mainTitle, .quoteTab {
+        position: relative;
+        animation: firstSee 3s ease-in;
+    }
+
+    .quoteTab {
+        width: 55vw;
+        border-radius: 5px;
+        background-color: rgba(168, 167, 167, 0.5);
+    }
+
+    @keyframes firstSee {
+        from {
+            opacity: 0%;
+            top: 100px;
+        }
+
+        to {
+            opacity: 100%;
+            top: 0px;
+        }
+    }
 }
