@@ -299,7 +299,7 @@ body {
     }
 
     .quoteTab {
-        width: 70vw;
+        width: 100vw;
         border-radius: 5px;
         background-color: rgba(168, 167, 167, 0.5);
     }
