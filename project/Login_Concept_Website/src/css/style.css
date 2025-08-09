@@ -315,4 +315,84 @@ body {
             top: 0px;
         }
     }
+
+    .mainBody {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-color: darkblue;
+    }
+
+    .mainDesc {
+        margin: 15px;
+        padding: 15px;
+        color: white;
+        width: 82vw;
+        border-radius: 10px;
+        text-align: justify;
+        box-shadow: 2px 2px 5px black;
+        text-shadow: 2px 1px black;
+        background-color: rgba(168, 167, 167, 0.5);
+    }
+
+    .conceptImg1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .showImage1 {
+        margin: 15px;
+        height: 200px;
+        width: 85vw;
+        background-size: cover;
+        box-shadow: 2px 2px 5px black;
+        background-image: url(../../img/sessionStorageJS.jpg);
+    }
+
+    .descimg1 {
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+
+    .informationBody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: darkblue;
+    }
+
+    .infoWebsite {
+        width: 85vw;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 5px black;
+        background-color: rgba(168, 168, 168, 0.5);
+    }
+
+    .titleInfo {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 1px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .descInfo {
+        padding: 5px;
+        color: white;
+        text-shadow: 2px 1px black;
+        text-align: justify;
+    }
+
+    .endPage {
+        color: white;
+        padding: 10px;
+        display: flex;
+        text-shadow: 2px 1px black;
+        background-image: linear-gradient(to top, rgb(108, 1, 209),  rgb(0, 34, 185));;
+        background-color: rgb(0, 117, 185);
+    }
 }
