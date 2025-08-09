@@ -198,12 +198,7 @@ body {
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    
-}
-
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (potrait phones, 600px and down) */
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     .navbarBody {
         color: white;
@@ -290,7 +285,7 @@ body {
 
         color: white;
         display: flex;
-        font-size: 2vw;
+        font-size: 4vw;
         text-align: center;
         align-items: center;
         justify-content: center;
