@@ -203,7 +203,7 @@ body {
     .navbarBody {
         color: white;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         background-image: linear-gradient(to bottom, rgb(108, 1, 209),  rgb(0, 34, 185));
         border: 3px solid white;
