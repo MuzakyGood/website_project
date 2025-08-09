@@ -6,7 +6,7 @@
 <a href="https://www.petanikode.com/tutorial/javascript/" target="_blank" rel="noreferree">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/1200px-Javascript-shield.svg.png" width="75" height="100" /> </a>
 <p>
-  ini adalah repositori yang berisi tentang bahasa website, bertujuan untuk pendidikan atau pelajaran!
+  ini adalah repositori yang berisi tentang kumpulan project website dan bahasa pemrograman lainya untuk di tautkan, bertujuan untuk pendidikan atau pelajaran!
 </p>
 <details>
   <Summary>Isi dari repositori ini:</Summary>
@@ -30,20 +30,19 @@
 # ***Template HTML***
 ```html
 <!DOCTYPE html>
-<html>
-  <head>
-      <title>My Website</title>
-  </head>
-  <body>
-      <h1>Judul</h1>
-      <hr>
-      <br>
-      <p>Deskripsi</p>
-      <br>
-  <footer>
-      <p>Copyright &copy by username 2024</p>
-  </footer>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Welcome, User</h1>
+    <p>Hello, World!</p>
+    <script src="script.js" type="module"></script>
+</body>
 </html>
 ```
 
