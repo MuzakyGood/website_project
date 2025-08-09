@@ -10,8 +10,7 @@ class BSQL {
         return Msg;
     };
 
-    sendData = (username, password, btnRegis, pathGo) => {
-        btnRegis.addEventListener('click', () => {
+    sendData = (username, password, pathGo) => {
             const database = JSON.parse(sessionStorage.getItem('database')) || {};
 
             database[password.value] = username.value;
@@ -19,7 +18,6 @@ class BSQL {
             sessionStorage.setItem('database', JSON.stringify(database));
 
             window.location.href = pathGo;
-        });
     };
 
     verifyData = (username, password) => {

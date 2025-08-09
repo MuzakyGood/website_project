@@ -61,3 +61,15 @@ input[type="text"], input[type="password"] {
 .btnLogin:hover {
     background-color: #45a049;
 }
+
+.warningMsg {
+    display: none;
+    color: rgb(168, 3, 3);
+    text-align: center;
+    text-shadow: 1px 1px 3px white;
+
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid rgb(255, 38, 0);
+    background-color: rgba(255, 145, 0, 0.5);
+}

@@ -2,7 +2,7 @@ import { BSQL } from "./BSQL/Database.js";
 
 const data = new BSQL();
 
-const dataHandle = (formInput, btnAction, path) => {
+const dataHandle = (formInput, btnAction, warnMsg, path) => {
     btnAction[0].addEventListener('click', () => {
         if (data.verifyData(formInput[0], formInput[1])) {
             sessionStorage.setItem('statusLogin', 'true');
@@ -14,7 +14,10 @@ const dataHandle = (formInput, btnAction, path) => {
             formInput[0].value = '';
             formInput[1].value = '';
 
-            console.log('Status = Login Failed!');
+            warnMsg.style.display = 'inline';
+            setTimeout(() => {
+                warnMsg.style.display = 'none';
+            }, 3000);
         }
     });
 };
@@ -30,5 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('btnLogin')
     ];
 
-    dataHandle(getForm, btnAction, '../index.html');
+    const warnMsg = document.getElementById('warnMsg');
+
+    dataHandle(getForm, btnAction, warnMsg, '../index.html');
 });
