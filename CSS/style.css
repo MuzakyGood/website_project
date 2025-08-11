@@ -61,7 +61,7 @@ body {
     align-items: flex-start;
 } 
 
-.web1, .web2, .web3, .web4 {
+.web1, .web2, .web3, .web4, .web5 {
     color: white;
     text-align: left;
     text-shadow: 2px 2px black;
@@ -95,6 +95,10 @@ body {
     border: 1px solid rgb(255, 255, 255);
 }
 
+.web5:hover {
+    border: 1px solid rgb(255, 255, 255);
+}
+
 .web1:focus {
     transition: var(--btnWebProjectDuration);
     color: black;
@@ -120,6 +124,14 @@ body {
 }
 
 .web4:focus {
+    transition: var(--btnWebProjectDuration);
+    color: black;
+    text-shadow: 2px 1px white;
+    background-color: rgb(0, 230, 77);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.web5:focus {
     transition: var(--btnWebProjectDuration);
     color: black;
     text-shadow: 2px 1px white;
