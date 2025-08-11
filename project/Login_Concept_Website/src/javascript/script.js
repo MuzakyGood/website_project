@@ -17,13 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const savedNickname = sessionStorage.getItem('saveNickname');
     let isAccountLogin = sessionStorage.getItem('statusLogin'); 
-    
-    data.debugShowLog();
-    console.log('Status = ', data.getMsg());
-    console.log('isLogin = ', isAccountLogin);
-    console.log('newUser:', navbar[0]);
-    console.log('logout:', navbar[1]);
-    console.log('btnLogout:', navbar[2]);
 
     if (isAccountLogin === null) sessionStorage.setItem('saveNickname', 'Guest');
 
