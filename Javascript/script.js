@@ -9,7 +9,8 @@ const globalVisiter = (btnWeb) => {
     visitTo(btnWeb[1], 'project/Value_Input/src/html/index.html');
     visitTo(btnWeb[2], 'project/Cek_Khodam/html/index.html');
     visitTo(btnWeb[3], 'project/Password_Generator/src/HTML/index.html');
-    visitTo(btnWeb[4], 'project/Login_Concept_Website/src/index.html');
+    visitTo(btnWeb[4], 'project/DraggedWindow/src/HTML/index.html');
+    visitTo(btnWeb[5], 'project/Login_Concept_Website/src/index.html');
 };
 
 // Main Code
@@ -19,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('btnWeb2'),
         document.getElementById('btnWeb3'),
         document.getElementById('btnWeb4'),
-        document.getElementById('btnWeb5')
+        document.getElementById('btnWeb5'),
+        document.getElementById('btnWeb6')
     ];
 
     globalVisiter(btnGoWeb);

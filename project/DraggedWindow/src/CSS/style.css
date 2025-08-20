@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+
+    /* Make background image center and fixed atachment */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../../img/windows10pro.jpg");
+}
+
+.backWindow {
+    cursor: move;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Make center position */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Make responsive UI width */
+    height: 20vh;
+    min-height: 200px;
+    width: 85vw;           
+    max-width: 200px; 
+    
+    padding: 8px;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(249, 249, 249);
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconAndTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iconApp {
+    margin: 1px;
+    width: 20px;
+}
+
+.titleApp {
+    cursor: auto;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.exit {
+    transition: 0.3s;
+    height: 95%;
+    width: 25%;
+
+    font-size: 17px;
+
+    border: none;
+    background-color: rgb(249, 249, 249);
+}
+
+.exit:hover {
+    transition: 0.1s;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.foreWindow {
+    margin: 5px;
+    width: 98%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.textContain {
+    cursor: auto;
+    font-size: 15px;
+}
