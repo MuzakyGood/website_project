@@ -25,15 +25,15 @@ function createDragWindow(object) {
     object.addEventListener('touchstart', (e) => {
         isDragging = true;
         const touch = e.touches[0];
-        posX = touch.clientX - object.offsetLeft;
-        posY = touch.clientY - object.offsetTop;
+        offsetX = touch.clientX - object.offsetLeft;
+        offsetY = touch.clientY - object.offsetTop;
     });
 
     document.addEventListener('touchmove', (e) => {
         if (isDragging) {
             const touch = e.touches[0];
-            object.style.left = `${touch.clientX - posX}px`;
-            object.style.top = `${touch.clientY - posY}px`;
+            object.style.left = `${touch.clientX - offsetX}px`;
+            object.style.top = `${touch.clientY - offsetY}px`;
         }
     });
 
