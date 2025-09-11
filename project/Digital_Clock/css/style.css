@@ -1,0 +1,133 @@
+/* Load internal font */
+@font-face {
+    font-family: Digital_IC;
+    src: url("../font/DS-DIGI.TTF");
+}
+
+/* Global body style */
+body {
+    margin: 0;
+    background-color: darkslategrey;
+}
+
+/* Desktop Querry */
+@media only screen and (min-width: 768px) {
+    .ClockBoard {
+        color: white;
+        font-family: Digital_IC;
+
+        gap: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+
+        /* Make center position */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /* Make responsive UI width */
+        height: 15vh;
+        min-height: 209px;
+        width: 95vw;           
+        max-width: 280px; 
+
+        border-radius: 15px;
+        background-color: black;
+        border: 3px solid rgb(0, 170, 14);
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
+
+    .DaysBoard {
+        font-size: 14px;
+    }
+
+    .sunday, .monday, .tuesday, .wednesday, .thursday, .friday, .saturday {
+        color: #1d1d1d;
+    }
+
+    .TimeBoard {
+        top: 15px;
+        position: relative;
+
+        font-size: 57px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calendar {
+        top: -65px;
+        margin: 0;
+        font-size: 20px;
+        position: relative;
+    }
+}
+
+/* Mobile Querry */
+@media only screen and (max-width: 767px) {
+    .ClockBoard {
+        color: white;
+        font-family: Digital_IC;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /* Make center position */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /* Make responsive UI width */
+        height: 15vh;
+        min-height: 161px;
+        width: 88vw;           
+        max-width: 220px; 
+
+        border-radius: 15px;
+        background-color: black;
+        border: 3px solid rgb(0, 170, 14);
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
+
+    .DaysBoard {
+        gap:8px;
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+
+        position: relative;
+        top: -50px;
+    }
+
+    .sunday, .monday, .tuesday, .wednesday, .thursday, .friday, .saturday {
+        top: -10px;
+        color: #272727;
+        position: relative;
+    }
+
+    .TimeBoard {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .realtime {
+        font-size: 45px;
+    }
+
+    .calendar {
+        top: -55px;
+        font-size: 15px;
+        position: relative;
+    }
+}
