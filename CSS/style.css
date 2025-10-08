@@ -2,6 +2,7 @@
 
 :root {
     --btnWebProjectDuration: 0.1s;
+    --btnIsBoundMouse: 1px solid rgb(255, 255, 255);
 }
 
 body {
@@ -42,6 +43,92 @@ body {
     background-color: rgba(189, 187, 187, 0.5);
 }
 
+.DicodingTab {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+
+    margin: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    background-color: darkslategray;
+}
+
+.mainDicodingTab {
+    overflow: hidden;
+    padding: 5px;
+    transition: max-height 0.5s ease;
+    max-height: 4em;
+}
+
+.mainDicodingTab[open] {
+    max-height: 500px;
+}
+
+.titleClassDicoding {
+    cursor: pointer;
+    list-style: none;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    font-size: 16px;
+
+    text-align: center;
+
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.titleClassDicoding:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px 1px white;
+}
+
+.Dicoding_List {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(47, 90, 90);
+}
+
+.DicodingLearn1, .DicodingLearn2 {
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+
+    width: 95%;
+    border: 1px solid rgb(10, 1, 61);
+    border-radius: 10px;
+    background-color: rgb(2, 105, 71);
+}
+
+.DicodingLearn1:hover, .DicodingLearn2:hover {
+    border: var(--btnIsBoundMouse);
+}
+
+.DicodingLearn1:focus, .DicodingLearn2:focus {
+    transition: var(--btnWebProjectDuration);
+    color: black;
+    text-shadow: 2px 1px white;
+    background-color: rgb(0, 230, 77);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.ComingSoonTitle {
+    margin: 5px;
+    padding: 5px;
+
+    width: 91%;
+    border-radius: 5px;
+    border-left: 5px solid rgb(0, 150, 0);
+    background-color: rgb(0, 120, 0);
+}
+
 .webProjectTab {
     display: flex;
     flex: 2;
@@ -75,87 +162,12 @@ body {
     background-color: rgb(2, 105, 71);
 }
 
-.web1:hover {
-    border: 1px solid rgb(255, 255, 255);
+.web1:hover, .web2:hover, .web3:hover, .web4:hover, .web5:hover, .web6:hover, .web7:hover {
+    border: var(--btnIsBoundMouse);
 }
 
-.web2:hover {
-    border: 1px solid rgb(255, 255, 255);
-}
 
-.web3:hover {
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.web3:hover {
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.web4:hover {
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.web5:hover {
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.web6:hover {
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.web7:hover {
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.web1:focus {
-    transition: var(--btnWebProjectDuration);
-    color: black;
-    text-shadow: 2px 1px white;
-    background-color: rgb(0, 230, 77);
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.web2:focus {
-    transition: var(--btnWebProjectDuration);
-    color: black;
-    text-shadow: 2px 1px white;
-    background-color: rgb(0, 230, 77);
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.web3:focus {
-    transition: var(--btnWebProjectDuration);
-    color: black;
-    text-shadow: 2px 1px white;
-    background-color: rgb(0, 230, 77);
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.web4:focus {
-    transition: var(--btnWebProjectDuration);
-    color: black;
-    text-shadow: 2px 1px white;
-    background-color: rgb(0, 230, 77);
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.web5:focus {
-    transition: var(--btnWebProjectDuration);
-    color: black;
-    text-shadow: 2px 1px white;
-    background-color: rgb(0, 230, 77);
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.web6:focus {
-    transition: var(--btnWebProjectDuration);
-    color: black;
-    text-shadow: 2px 1px white;
-    background-color: rgb(0, 230, 77);
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.web7:focus {
+.web1:focus, .web2:focus, .web3:focus, .web4:focus, .web5:focus, .web6:focus, .web7:focus {
     transition: var(--btnWebProjectDuration);
     color: black;
     text-shadow: 2px 1px white;

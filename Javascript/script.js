@@ -4,7 +4,7 @@ const visitTo = (btn, target) => {
     });
 };
 
-const globalVisiter = (btnWeb) => {
+const globalMyProjectVisiter = (btnWeb) => {
     visitTo(btnWeb[0], 'project/JPCSIM/index.html');
     visitTo(btnWeb[1], 'project/Value_Input/src/html/index.html');
     visitTo(btnWeb[2], 'project/Cek_Khodam/html/index.html');
@@ -12,6 +12,11 @@ const globalVisiter = (btnWeb) => {
     visitTo(btnWeb[4], 'project/Password_Generator/src/HTML/index.html');
     visitTo(btnWeb[5], 'project/DraggedWindow/src/HTML/index.html');
     visitTo(btnWeb[6], 'project/Login_Concept_Website/src/index.html');
+};
+
+const visiterDicodingHTML = (btnHTML) => {
+    visitTo(btnHTML[0], 'Dicoding_Frontend/A.HTML/1.Create_Element/index.html');
+    visitTo(btnHTML[1], 'Dicoding_Frontend/A.HTML/2.Create_Attribute/index.html');
 };
 
 // Main Code
@@ -26,5 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('btnWeb7')
     ];
 
-    globalVisiter(btnGoWeb);
+    const btnDicodingHTML = [
+        document.getElementById('btnDicodingLearn1'),
+        document.getElementById('btnDicodingLearn2')
+    ];
+
+    globalMyProjectVisiter(btnGoWeb);
+    visiterDicodingHTML(btnDicodingHTML)
 });
