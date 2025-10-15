@@ -122,6 +122,7 @@ body {
 .ComingSoonTitle {
     margin: 5px;
     padding: 5px;
+    text-shadow: 2px 1px 1px black;
 
     width: 70%;
     border-radius: 5px;
