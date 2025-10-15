@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Generic Element</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .textBox {
+            margin: 5px;
+            padding: 5px;
+            font-family: sans-serif;
+            border: 2px solid #8d8d8d;
+            box-shadow: 1px 1px 10px black;
+            background-color: rgb(238, 236, 236);
+        }
+
+        .cppCode {
+            color: white;
+            font-family: monospace;
+            background-color: #000000;
+        }
+
+        .stringCode {
+            color: rgb(195, 0, 212);
+        }
+
+        .cppStd {
+            color: rgb(251, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Generic Element</h1>
+
+    <h3>Div Element:</h3>
+    <div class="textBox">
+        <p>
+            This paragraph is inside a div element, 
+            but it will be displayed just like a regular paragraph. 
+            This element is more often used to group content so that 
+            styling can be easily applied using class or id attributes.
+        </p>
+    </div>
+
+    <h3>Span Element</h3>
+    <p>Follow this C++ code:</p>
+    <p>
+        <span class="cppCode">
+            <span class="cppStd">std::cout</span> &lt;&lt; <span class="stringCode">"Hello, World!"</span> &lt;&lt; <span class="cppStd">std::endl;</span>
+        </span>
+    </p>
+</body>
+</html>

@@ -15,8 +15,16 @@ const globalMyProjectVisiter = (btnWeb) => {
 };
 
 const visiterDicodingHTML = (btnHTML) => {
-    visitTo(btnHTML[0], 'Dicoding_Frontend/A.HTML/1.Create_Element/index.html');
-    visitTo(btnHTML[1], 'Dicoding_Frontend/A.HTML/2.Create_Attribute/index.html');
+    visitTo(btnHTML[0], 'Dicoding_Frontend/A.HTML/01.Create_Element/index.html');
+    visitTo(btnHTML[1], 'Dicoding_Frontend/A.HTML/02.Create_Attribute/index.html');
+    visitTo(btnHTML[2], 'Dicoding_Frontend/A.HTML/03.Create_List/index.html');
+    visitTo(btnHTML[4], 'Dicoding_Frontend/A.HTML/04.Create_Image/index.html');
+    visitTo(btnHTML[5], 'Dicoding_Frontend/A.HTML/05.Formating_Text/index.html');
+    visitTo(btnHTML[6], 'Dicoding_Frontend/A.HTML/06.Semantic_HTML/index.html');
+    visitTo(btnHTML[7], 'Dicoding_Frontend/A.HTML/07.Generic_Element/index.html');
+    visitTo(btnHTML[8], 'Dicoding_Frontend/A.HTML/08.Create_Table/index.html');
+    visitTo(btnHTML[9], 'Dicoding_Frontend/A.HTML/09.Create_Input/index.html');
+    visitTo(btnHTML[10], 'Dicoding_Frontend/A.HTML/10.Special_Character/index.html');
 };
 
 // Main Code
@@ -33,7 +41,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const btnDicodingHTML = [
         document.getElementById('btnDicodingLearn1'),
-        document.getElementById('btnDicodingLearn2')
+        document.getElementById('btnDicodingLearn2'),
+        document.getElementById('btnDicodingLearn3'),
+        document.getElementById('btnDicodingLearn4'),
+        document.getElementById('btnDicodingLearn5'),
+        document.getElementById('btnDicodingLearn6'),
+        document.getElementById('btnDicodingLearn6'),
+        document.getElementById('btnDicodingLearn7'),
+        document.getElementById('btnDicodingLearn8'),
+        document.getElementById('btnDicodingLearn9'),
+        document.getElementById('btnDicodingLearn10')
     ];
 
     globalMyProjectVisiter(btnGoWeb);

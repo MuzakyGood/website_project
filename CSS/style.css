@@ -63,7 +63,7 @@ body {
 }
 
 .mainDicodingTab[open] {
-    max-height: 500px;
+    max-height: 1000px;
 }
 
 .titleClassDicoding {
@@ -91,7 +91,7 @@ body {
     background-color: rgb(47, 90, 90);
 }
 
-.DicodingLearn1, .DicodingLearn2 {
+.DicodingLearn1, .DicodingLearn2, .DicodingLearn3, .DicodingLearn4, .DicodingLearn5, .DicodingLearn6, .DicodingLearn7, .DicodingLearn8, .DicodingLearn9, .DicodingLearn10 {
     color: white;
     text-align: left;
     text-shadow: 2px 2px black;
@@ -107,11 +107,11 @@ body {
     background-color: rgb(2, 105, 71);
 }
 
-.DicodingLearn1:hover, .DicodingLearn2:hover {
+.DicodingLearn1:hover, .DicodingLearn2:hover, .DicodingLearn3:hover, .DicodingLearn4:hover, .DicodingLearn5:hover, .DicodingLearn6:hover, .DicodingLearn7:hover, .DicodingLearn8:hover, .DicodingLearn9:hover, .DicodingLearn10:hover {
     border: var(--btnIsBoundMouse);
 }
 
-.DicodingLearn1:focus, .DicodingLearn2:focus {
+.DicodingLearn1:focus, .DicodingLearn2:focus, .DicodingLearn3:focus, .DicodingLearn4:focus, .DicodingLearn5:focus, .DicodingLearn6:focus, .DicodingLearn7:focus, .DicodingLearn8:focus, .DicodingLearn9:focus, .DicodingLearn10:focus {
     transition: var(--btnWebProjectDuration);
     color: black;
     text-shadow: 2px 1px white;
