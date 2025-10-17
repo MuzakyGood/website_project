@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS All Selector</title>
+</head>
+<body>
+    <h1>CSS All Selector</h1>
+
+    <h3>Type Selector</h3>
+    <span>
+        The type selector only works on the targeted element. 
+        Here I am targeting the <code>span</code> element.
+    </span>
+    <p>
+        <code>Paragraph</code> elements are unaffected.
+    </p>
+
+    <h3>Class Selector</h3>
+    <p class="classSelector">
+        The class selector must include the <code>class</code> attribute on the HTML element, and 
+        in CSS it must use a dot <code>(.)</code> before the class name.
+    </p>
+
+    <h3>Id Selector</h3>
+    <div id="idSelector">
+        <p>
+            The ID selector on an HTML element must include the <code>id</code> attribute, 
+            and in CSS it must include hashtag <code>(#)</code> before the id name.
+        </p>
+    </div>
+
+    <h3>Attribute Selector</h3>
+    <ul>
+        <li><a href="#internal">Internal link</a></li>
+        <li><a href="http://example.com">Example link</a></li>
+        <li><a href="#InSensitive">Insensitive internal link</a></li>
+        <li><a href="http://example.org">Example org link</a></li>
+    </ul>
+
+    <h3>Universal Selector</h3>
+    <p>
+        To find out what the Universal selector 
+        is like,<br>visit this link 👉 <a href="universal.html">Click here...</a>
+    </p>
+</body>
+</html>

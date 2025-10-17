@@ -1,0 +1,58 @@
+/* Type Selector */
+span {
+    color: red;
+}
+
+/* Class Selector */
+.classSelector {
+    color: green;
+}
+
+/* Id Selector */
+#idSelector {
+    color: blue;
+}
+
+/* Attribute Selector */
+
+/* <a> element that applies the href attribute */
+a[href] {
+    color: purple;
+}
+
+/* <a> element that applies a value to href starting with "#" */
+a[href^='#'] {
+    background-color: gold;
+}
+
+/* <a> element that applies a value to href containing the text "example" */
+a[href*='example'] {
+    background-color: silver;
+}
+
+/* <a> element that applies a value to the href containing the text "insensitive" does not care about uppercase letters */
+a[href*='insensitive' i] {
+    color: cyan;
+}
+
+/* <a> element that applies a value to href ending with ".org" */
+a[href$='.org'] {
+    color: pink;
+}
+
+
+
+
+/* Outside of learning! */
+a[href*='universal'] {
+    color: white;
+    text-decoration: none;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%   { background-color: blue; }
+    45%  { background-color: green; }
+    75% { background-color: red; }
+    100% { background-color: blue; }
+}

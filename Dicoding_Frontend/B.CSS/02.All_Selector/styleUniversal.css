@@ -1,0 +1,21 @@
+/* Targeting all types of elements */
+* {
+    color: green;
+    font-family: sans-serif;
+}
+
+/* Targeting all types of elements that have a "title" value in the class attribute */
+*.title {
+    color: red;
+}
+
+/* Targeting all types of elements that have the value "text" in the id attribute */
+*#text {
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+/* Targeting all types of elements that contain the value "id" in the lang attribute */
+*[lang^='id'] {
+    font-style: italic;
+}
