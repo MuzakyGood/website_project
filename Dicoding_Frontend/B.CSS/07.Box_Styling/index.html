@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Box Styling</title>
+</head>
+<body>
+    <h1>Box Styling</h1>
+
+    <!---  I will use external css for this tutorial --->
+    <h3>Text Inside Box</h3>
+    <div class="boxText">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Animi eligendi neque voluptates est id asperiores beatae, 
+            aliquam perferendis ullam sapiente et unde at, 
+            fugit non atque mollitia ut, ad molestias.
+        </p>
+    </div>
+
+    <h3>Box Responsive With Browser Window</h3>
+    <div class="responsiveBox">
+        <p>Example responsive box with <code>max-width: 100%;</code></p>
+    </div>
+
+    <h3>Overflow Box</h3>
+        <div class="overflowContainer">
+            <div class="boxOverflow1">
+                <h4 style="font-size: small;">div { overflow: visible; }</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum provident architecto iste omnis exercitationem, fugiat perferendis quo facilis. 
+                    Optio et cupiditate minima ex nisi repellat distinctio deserunt voluptate quibusdam dicta?
+                </p>
+            </div>
+            <div class="boxOverflow2">
+                <h4 style="font-size: small;">div { overflow: hidden; }</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum provident architecto iste omnis exercitationem, fugiat perferendis quo facilis. 
+                    Optio et cupiditate minima ex nisi repellat distinctio deserunt voluptate quibusdam dicta?
+                </p>
+            </div>
+            <div class="boxOverflow3">
+                <h4 style="font-size: small;">div { overflow: scroll; }</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum provident architecto iste omnis exercitationem, fugiat perferendis quo facilis. 
+                    Optio et cupiditate minima ex nisi repellat distinctio deserunt voluptate quibusdam dicta?
+                </p>
+            </div>
+            <div class="boxOverflow4">
+                <h4 style="font-size: small;">div { overflow: auto; }</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum provident architecto iste omnis exercitationem, fugiat perferendis quo facilis. 
+                    Optio et cupiditate minima ex nisi repellat distinctio deserunt voluptate quibusdam dicta?
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <h3>Box-Sizing Styling</h3>
+        <div class="Box-SizingContent"></div>
+        <p>
+            Elements applying <code>box-sizing: content-box;</code> 
+            The overall box size will be 260px wide, 260px high; 
+            260 = 200 + 20 + 20 + 10 + 10
+        </p>
+        <br />
+        <div class="Box-SizingBox"></div>
+        <p>
+            Elements applying <code>box-sizing: border-box;</code> 
+            The box size will remain 200px wide, 
+            200px high even when padding and border are applied
+        </p>
+
+        <h3>Border Box</h3>
+
+        <h4>Border Type</h4>
+        <ul style="text-decoration: none;">
+            <li>
+                <p>1. Solid</p>
+                <div class="solidBox"></div>
+            </li>
+            <li>
+                <p>2. Dotted</p>
+                <div class="dottedBox"></div>
+            </li>
+            <li>
+                <p>3. Dashed</p>
+                <div class="dashedBox"></div>
+            </li>
+            <li>
+                <p>4. Double</p>
+                <diV class="doubleBox"></diV>
+            </li>
+            <li>
+                <p>5. Groove</p>
+                <div class="grooveBox"></div>
+            </li>
+            <li>
+                <p>6. Hidden</p>
+                <div class="hiddenBox"></div>
+            </li>
+        </ul>
+
+        <h3>Box Shadow</h3>
+        <div class="shadowBox"></div>
+
+        <h3>Box Radius Round</h3>
+        <div class="boxRadiusRound"></div>
+
+        <h3>Box Padding</h3>
+        <ul>
+            <li>
+                <h5>No Padding</h5>
+                <p style="border: 3px solid red; padding: 0px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Autem dolorem vero tempore laudantium blanditiis ipsum natus 
+                    suscipit quas est voluptatum, minima, commodi harum. Doloremque 
+                    aperiam nostrum, ratione sapiente quidem delectus!
+                </p>
+            </li>
+            <li>
+                <h5>With Padding</h5>
+                <p style="border: 3px solid red; padding: 10px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Autem dolorem vero tempore laudantium blanditiis ipsum natus 
+                    suscipit quas est voluptatum, minima, commodi harum. Doloremque 
+                    aperiam nostrum, ratione sapiente quidem delectus!
+                </p>
+            </li>
+        </ul>
+
+        <h3>Box Margin</h3>
+        <h5>No Margin</h5>
+        <p style="border: 3px solid red; margin: 0;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Autem dolorem vero tempore laudantium blanditiis ipsum natus 
+            suscipit quas est voluptatum, minima, commodi harum. Doloremque 
+            aperiam nostrum, ratione sapiente quidem delectus!
+        </p>
+
+        <h5>With Margin</h5>
+        <p style="border: 3px solid red; margin: 10px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Autem dolorem vero tempore laudantium blanditiis ipsum natus 
+            suscipit quas est voluptatum, minima, commodi harum. Doloremque 
+            aperiam nostrum, ratione sapiente quidem delectus!
+        </p>
+
+        <h5>Box Center Positions</h5>
+        <p style="border: 3px solid red; margin: 0 auto; width: 50%; padding: 20px; margin-bottom: 20px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Autem dolorem vero tempore laudantium blanditiis ipsum natus 
+            suscipit quas est voluptatum, minima, commodi harum. Doloremque 
+            aperiam nostrum, ratione sapiente quidem delectus!
+        </p>
+
+        <h3>Inline List Box</h3>
+        <ul>
+            <li style="display: inline; list-style-type: none; margin-left: 5px;">Home</li>
+            <li style="display: inline; list-style-type: none; margin-left: 5px;">Product</li>
+            <li style="display: inline; list-style-type: none; margin-left: 5px;">About</li>
+            <li style="display: inline; list-style-type: none; margin-left: 5px;">Contact</li>
+        </ul>
+</body>
+</html>

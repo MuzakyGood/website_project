@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to external CSS for some cases -->
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Text Styling</title>
+</head>
+<body>
+    <h1>CSS Text Styling</h1>
+
+    <h3>Font Family</h3>
+    <!-- I will use inline CSS in this case -->
+     <ul>
+        <li>
+            <p style="font-family: 'Times New Roman', Times, serif;">This text is written in the <i>'Times New Roman', Times, serif</i> font.</p>
+        </li>
+        <li>
+            <p style="font-family: sans-serif;">This text is written in <i>sans-serif</i> font.</p>
+        </li>
+        <li>
+            <p style="font-family: monospace;">This text is written in <i>monospace</i> font.</p>
+        </li>
+        <li>
+            <p style="font-family: cursive;">This text is written in <i>cursive</i> font.</p>
+        </li>
+        <li>
+            <p style="font-family: fantasy;">This text is written in the <i>fantasy</i> font.</p>
+        </li>
+        <li>
+            <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">This text is written in the <i>system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif</i> font.</p>
+        </li>
+     </ul>
+
+     <h3>Import External Font</h3>
+     <!-- I will use external CSS in this case -->
+     <ul>
+        <li>
+            <p>Local Font:</p>
+            <p class="minecraftFont">This text is written in the <i>Minecraft</i> font.</p>
+        </li>
+        <li>
+            <p>Online Font:</p>
+            <p class="caveatFont">This text is written with the online font <i>Caveat</i> from <b>Google Font</b>.</p>
+        </li>
+     </ul>
+
+     <h3>Font Size</h3>
+     <p style="font-size: 20px;">This text is written with the <code>font-size</code> attribute, which is <code>20px</code>.</p>
+
+     <h3>Font Weight</h3>
+     <p>
+      <span class="normal">normal</span> | <span class="bold">bold</span> |
+      <span class="bolder">bolder</span> | <span class="lighter">lighter</span> |
+      <span class="fw100">fw100</span> | <span class="fw200">fw200</span> |
+      <span class="fw300">fw300</span> | <span class="fw400">fw400</span> |
+      <span class="fw500">fw500</span> | <span class="fw600">fw600</span> |
+      <span class="fw700">fw700</span> | <span class="fw800">fw800</span> |
+      <span class="fw900">fw900</span>
+    </p>
+
+    <h3>Font Style</h3>
+    <p>
+      <span class="normalStyle">normal</span> | <span class="italicStyle">italic</span> |
+      <span class="obliqueStyle">oblique</span>
+    </p>
+
+    <h3>Font Variant</h3>
+    <p style="font-weight: bolder; font-variant: small-caps;">
+        This is a Text with Small Capital Letters. 
+        Example CSS content: <code>font-variant: small-caps;</code>
+    </p>
+
+    <h3>Shorthand</h3>
+    <p style="font: 1em sans-serif;">
+        Font shorthand has 3 values from the <code>font:</code> attribute. 
+        Example CSS content: <code>font: style weight variant size font-family;</code>
+    </p>
+
+    <h3>Line Height</h3>
+    <p style="line-height: 2;">
+       The <code>line-height</code> property is used to set the minimum distance 
+       from the baseline of the text to the line when displaying it on a web page.
+    </p>
+
+    <h3>Text Indent</h3>
+    <p style="text-indent: 50px;">
+        The <code>text-indent</code> property is used to create a space/indent at the beginning 
+        of a paragraph. We can specify the value of this property using length measurements in 
+        <b><i>px</i></b>, <b><i>em</i></b>, and <b><i>in</i></b>, or we can use a percentage 
+        <b><i>%</i></b>. The percentage value is calculated based on the width of the parent element. 
+    </p>
+
+    <h3>Text Alignment</h3>
+    <div class="mainAlign">
+        <p class="tl-left">
+            <code>text-align</code> sets the horizontal alignment for 
+            inline content/elements within a block element.
+        </p>
+        <p class="tl-right">
+            <code>text-align</code> sets the horizontal alignment for 
+            inline content/elements within a block element.
+        </p>
+        <p class="tl-center">
+            <code>text-align</code> sets the horizontal alignment for 
+            inline content/elements within a block element.
+        </p> 
+        <p class="tl-justify">
+            <code>text-align</code> sets the horizontal alignment for 
+            inline content/elements within a block element.
+        </p>
+    </div>
+
+    <h3>Text Decoration</h3>
+    <ul>
+        <li>
+            <p style="text-decoration: underline;">text-decoration: underline;</p>
+        </li>
+        <li>
+            <p style="text-decoration: overline;">text-decoration: overline;</p>
+        </li>
+        <li>
+            <p style="text-decoration: line-through;">text-decoration: line-through;</p>
+        </li>
+        <li>
+            <a target="_blank" href="#" style="color: black; text-decoration: none;">text-decoration: none;</a>
+        </li>
+    </ul>
+
+    <h3>Text Transform</h3>
+    <ul>
+        <li>
+            <p style="text-transform: none;">text-transform: none;</p>
+        </li>
+        <li>
+            <p style="text-transform: capitalize;">text-transform: capitalize;</p>
+        </li>
+        <li>
+            <p style="text-transform: lowercase;">text-transform: lowercase;</p>
+        </li>
+        <li>
+            <p style="text-transform: uppercase;">text-transform: uppercase;</p>
+        </li>
+    </ul>
+
+    <h3>Word and Letter Spacing</h3>
+    <p style="font-family: sans-serif;letter-spacing: 4px;">
+        Bandung, the largest metropolitan city in West Java Province.
+    </p>
+    <p style="font-family: sans-serif;letter-spacing: 1.5em;">
+        Bandung, the largest metropolitan city in West Java Province.
+    </p>
+
+    <h3>Text Shadow</h3>
+    <div class="mainShadow">
+        <p class="oneShadow">
+            Bandung, the largest metropolitan city in West Java Province.
+        </p>
+        <p class="twoShadow">
+            Bandung, the largest metropolitan city in West Java Province.
+        </p>
+        <p class="threeShadow">
+            Bandung, the largest metropolitan city in West Java Province.
+        </p>
+        <p class="fourShadow">
+            Bandung, the largest metropolitan city in West Java Province.
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.posAbsoluteFlow {
+    top: 80px;
+    left: 20px;
+    position: absolute;
+    padding: 30px;
+    font-size: x-large;
+    background-color: #aaaaaa;
+} 
+
+.posRelativeFlow {
+    top: 10px;
+    left: 100px;
+    width: 350px;
+    position: relative;
+    padding: 30px;
+    font-size: x-large;
+    background-color: #aaaaaa;
+}
+
+.posFixedFlow {
+    bottom: 85%;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    position: fixed;
+    text-align: center;
+    background-color: #003feb;
+}
+
+.posNormalFlow {
+    width: 350px;
+    padding: 30px;
+    font-size: x-large;
+    background-color: #aaaaaa;
+}
+
+.paragraphSubPos {
+    width: 450px;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+.floatLeftPosition {
+    text-align: center;
+    line-height: 400px;
+    width: 33.3%;
+    height: 100%;
+    background-color: #00c7ed;
+    float: left;
+}
+
+.floatCenterPosition {
+    text-align: center;
+    line-height: 400px;
+    width: 33.3%;
+    height: 100%;
+    background-color: #d0b541;
+    float: left;
+}
+
+.floatRightPosition {
+    text-align: center;
+    line-height: 400px;
+    width: 33.3%;
+    height: 100%;
+    background-color: #60d0a8;
+    float: left;
+}

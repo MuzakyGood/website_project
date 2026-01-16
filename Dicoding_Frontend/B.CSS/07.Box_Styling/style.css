@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.boxText {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(223, 223, 223);
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px black;
+    background-color: rgb(0, 0, 175);
+}
+
+.responsiveBox {
+    height: 50px;
+    max-width: 100%;
+    padding: 5px;
+    color: rgb(223, 223, 223);
+    text-align: center;
+    box-shadow: 0px 0px 15px black;
+    background-color: blueviolet;
+}
+
+.overflowContainer {
+    gap: 25px;
+    color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.boxOverflow1, .boxOverflow2, .boxOverflow2, .boxOverflow3, .boxOverflow4 {
+    height: 160px;
+    width: 160px;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(0, 148, 247);
+    text-align: justify;
+    font-size: smaller;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px black;
+    background-color: rgb(0, 1, 5);
+}
+
+.boxOverflow1 {
+    overflow: visible;
+}
+
+.boxOverflow2 {
+    overflow: hidden;
+}
+
+.boxOverflow3 {
+    overflow: scroll;
+}
+
+.boxOverflow4 {
+    overflow: auto;
+}
+
+.Box-SizingContent, .Box-SizingBox {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border: 10px solid cornflowerblue;
+    padding: 20px;
+}
+
+.Box-SizingContent {
+    box-sizing: content-box;
+}
+
+.Box-SizingBox {
+    box-sizing: border-box;
+}
+
+.solidBox, .dottedBox, .dashedBox, .doubleBox, .grooveBox, .hiddenBox {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 15px black;
+    background-color: rgb(231, 231, 231);
+}
+
+.solidBox {
+    border: 2px solid red;
+}
+
+.dottedBox {
+    border: 2px dotted red;
+}
+
+.dashedBox {
+    border: 2px dashed red;
+}
+
+.doubleBox {
+    border: 2px double red;
+}
+
+.grooveBox {
+    border: 2px groove red;
+}
+
+.hiddenBox {
+    border: 2px hidden red;
+}
+
+.shadowBox {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 5px 5px 1px black;
+    background-color: rgb(109, 109, 109);
+}
+
+.boxRadiusRound {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+    background-color: rgb(231, 231, 231);
+}

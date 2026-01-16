@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color CSS</title>
+</head>
+<body>
+    <h1>Color Styling</h1>
+
+    <!-- I will use inline css for this tutorial -->
+    <h3>Text Coloring</h3>
+    <ul>
+        <li style="color: gray;">p { color: gray; }</li>
+        <li style="color: #666666;">p { color: #666666; }</li>
+        <li style="color: #666;">p { color: #666; }</li>
+        <li style="color: rgb(102,102,102);">p { color: rgb(102,102,102); }</li>
+        <li style="color: hsl(0, 0%, 37%);">p { color: hsl(0, 0%, 37%); }</li>
+    </ul>
+
+    <!-- I will use external css for this tutorial -->
+    <div class="externCSS">
+        <h3 class="title">Background color</h3>
+        <h4 class="explanation">Explanation</h4>
+        <p class="paragraph">
+            <b>CSS</b> treats each HTML element as if it were in a box
+            (we'll learn more about this in the box model discussion)
+            and the <code>background-color</code> property can set the color for
+            the background of the box.
+        </p>
+    </div>
+
+    <h3>Opacity Styling</h3>
+    <lebel><i>Note: Opacity start from 0% here 👇</i></lebel>
+    <ul>
+        <li style="opacity: 0%;">opacity: 0%</li>
+        <li style="opacity: 10%;">opacity: 10%</li>
+        <li style="opacity: 20%;">opacity: 20%</li>
+        <li style="opacity: 30%;">opacity: 30%</li>
+        <li style="opacity: 40%;">opacity: 40%</li>
+        <li style="opacity: 50%;">opacity: 50%</li>
+        <li style="opacity: 60%;">opacity: 60%</li>
+        <li style="opacity: 70%;">opacity: 70%</li>
+        <li style="opacity: 80%;">opacity: 80%</li>
+        <li style="opacity: 90%;">opacity: 90%</li>
+        <li style="opacity: 100%;">opacity: 100%</li>
+    </ul>
+
+    <h3>Opacity All Color</h3>
+    <lebel><i>Note: Using <code>rgba()</code> function start here 👇</i></lebel>
+    <lebel><i>Note: Can also work for the <code>background-color</code></i></lebel>
+    <ul>
+        <li>
+            <p>Color Opacity</p>
+            <ul style="text-decoration: none;">
+                <li style="color: rgba(0, 13, 201, 0.0);">color: rgba(0, 13, 201, 0.0);</li>
+                <li style="color: rgba(0, 13, 201, 0.10);">color: rgba(0, 13, 201, 0.10);</li>
+                <li style="color: rgba(0, 13, 201, 0.20);">color: rgba(0, 13, 201, 0.20);</li>
+                <li style="color: rgba(0, 13, 201, 0.30);">color: rgba(0, 13, 201, 0.30);</li>
+                <li style="color: rgba(0, 13, 201, 0.40);">color: rgba(0, 13, 201, 0.40);</li>
+                <li style="color: rgba(0, 13, 201, 0.50);">color: rgba(0, 13, 201, 0.50);</li>
+                <li style="color: rgba(0, 13, 201, 0.60);">color: rgba(0, 13, 201, 0.60);</li>
+                <li style="color: rgba(0, 13, 201, 0.70);">color: rgba(0, 13, 201, 0.70);</li>
+                <li style="color: rgba(0, 13, 201, 0.80);">color: rgba(0, 13, 201, 0.80);</li>
+                <li style="color: rgba(0, 13, 201, 0.90);">color: rgba(0, 13, 201, 0.90);</li>
+                <li style="color: rgba(0, 13, 201, 1);">color: rgba(0, 13, 201, 1);</li>
+            </ul>
+        </li>
+        <li>
+            <p>Background Color Opacity</p>
+            <ul style="text-decoration: none;">
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.0);">background-color: rgba(0, 13, 201, 0.0);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.10);">background-color: rgba(0, 13, 201, 0.10);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.20);">background-color: rgba(0, 13, 201, 0.20);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.30);">background-color: rgba(0, 13, 201, 0.30);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.40);">background-color: rgba(0, 13, 201, 0.40);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.50);">background-color: rgba(0, 13, 201, 0.50);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.60);">background-color: rgba(0, 13, 201, 0.60);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.70);">background-color: rgba(0, 13, 201, 0.70);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.80);">background-color: rgba(0, 13, 201, 0.80);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 0.90);">background-color: rgba(0, 13, 201, 0.90);</li>
+                <li style="color: black; background-color: rgba(0, 13, 201, 1);">background-color: rgba(0, 13, 201, 1);</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

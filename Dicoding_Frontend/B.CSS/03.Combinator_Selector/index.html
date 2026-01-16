@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Combinator Selector CSS</title>
+</head>
+<body>
+    <h1>Combinator Selector CSS</h1>
+
+    <h3 class="adjacent">Adjacent Sibling Selector (+)</h3>
+    <p>
+        The rule will be applied to <code>paragraph</code> elements 
+        that are immediately after <code>h3</code> elements.
+    </p>
+
+    <h3 class="genSibling">General Sibling Selector (~)</h3>
+    <p>
+        The rule will be applied to all <code>paragraph</code> 
+        elements that are positioned after an <code>img</code> element.
+    </p>
+    <div>
+        <p>
+            This <code>paragraph</code> is skipped, because has different parrent element.
+            This <code>paragraph</code> inside <code>div</code> element.
+        </p>
+    </div>
+    <p>
+        This <code>paragraph</code> has been reached.
+    </p>
+
+    <h3>Child Selector (>)</h3>
+    <div>
+        <p>
+            This paragraf inside <code>div</code>
+        </p>
+        <p>
+            The CSS rule will be applied to all paragraph elements that are 
+            directly within a <code>div</code> element. In other words, 
+            the <code>paragraph</code> element is a child of the 
+            <code>div</code> element, not just a descendant.
+        </p>
+        <section>
+            <p>
+                <code>Paragraph</code> inside a <code>div</code>, 
+                but not as a direct child element.
+            </p>
+        </section>
+    </div>
+    <p>
+        <code>Paragraph</code> outside <code>div</code> element.
+    </p>
+
+    <h3>Descendant Selector (space)</h3>
+    <div class="descendant">
+        <p>
+            The Descendant Selector is similar to the child selector, 
+            but its hierarchy is broader because the rule will be applied 
+            to all elements that are its descendants, even indirectly. 
+            The first basic selector written in this selector becomes the parent, 
+            and the second basic selector will apply the rule. 
+            This selector uses a space to combine the two basic selectors.
+        </p>
+        <section>
+            <p>
+                <code>Paragraph</code> inside a <code>div</code> However, 
+                it is not a direct child element.
+            </p>
+        </section>
+    </div>
+    <p>
+        <code>Paragraph</code> outside <code>div</code> element.
+    </p>
+</body>
+</html>

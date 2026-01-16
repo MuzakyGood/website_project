@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.externCSS {
+    color: white;
+    padding: 20px 15px;
+    font-family: sans-serif;
+    background-color: rgb(235, 255, 213);
+}
+
+.title {
+    padding: 15px;
+    text-align: center;
+    background-color: #4c5450;
+}
+
+.explanation {
+    padding: 15px;
+    background-color: #60d0a8;
+}
+
+.paragraph {
+    color: rgb(46, 46, 46);
+    padding: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    background-color: hsl(56, 62%, 85%);
+}
+
+.paragraph > code {
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    font-family: monospace;
+    border-radius: 5px;
+    background-color: black;
+}

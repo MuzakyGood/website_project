@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* the rule will be applied to a link that has never been visited */
+.psuedoLinkClass:link {
+    color: white;
+    background-color: green;
+}
+
+/* the rule will be applied to a link that has been visited before */
+.psuedoLinkClass:visited {
+    color: white;
+    background-color: orangered;
+}
+
+/* the rule will be applied to a link when hovered over with the cursor */
+.psuedoLinkClass:hover {
+    transition: 1.5s;
+    color: black;
+    background-color: rgb(0, 255, 13);
+}
+
+/* the rule will be applied to a link when clicked */
+.psuedoLinkClass:active {
+    color: black;
+    background-color: rgb(255, 238, 0);
+}
+
+.typePsuedoElement {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.explainQuote1::before, .explainQuote1::after {
+    content: '"';
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.explainQuote2::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: saddlebrown;
+}

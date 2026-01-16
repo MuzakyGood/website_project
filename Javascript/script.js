@@ -27,6 +27,24 @@ const visiterDicodingHTML = (btnHTML) => {
     visitTo(btnHTML[9], 'Dicoding_Frontend/A.HTML/10.Special_Character/index.html');
 };
 
+const visiterDicodingCSS = (btnCSS) => {
+    visitTo(btnCSS[0], 'Dicoding_Frontend/B.CSS/01.Using_CSS/index.html');
+    visitTo(btnCSS[1], 'Dicoding_Frontend/B.CSS/02.All_Selector/index.html');
+    visitTo(btnCSS[2], 'Dicoding_Frontend/B.CSS/03.Combinator_Selector/index.html');
+    visitTo(btnCSS[3], 'Dicoding_Frontend/B.CSS/04.Pseudo_Selector/index.html');
+    visitTo(btnCSS[4], 'Dicoding_Frontend/B.CSS/05.Text_Styling/index.html');
+    visitTo(btnCSS[5], 'Dicoding_Frontend/B.CSS/06.Color_Styling/index.html');
+    visitTo(btnCSS[6], 'Dicoding_Frontend/B.CSS/07.Box_Styling/index.html');
+    visitTo(btnCSS[7], 'Dicoding_Frontend/B.CSS/08.Position_CSS/index.html');
+    visitTo(btnCSS[8], 'Dicoding_Frontend/B.CSS/09.Flexbox_Responsive/index.html');
+}
+
+const visiterDicodingProject = (btnProject) => {
+    visitTo(btnProject[0], 'Dicoding_Frontend/D.Project/01.bandung_website/index.html');
+    visitTo(btnProject[1], 'Dicoding_Frontend/D.Project/02.landing_page_dicoding/index.html');
+    visitTo(btnProject[2], 'Dicoding_Frontend/D.Project/03.profil_developer/index.html');
+}
+
 // Main Code
 document.addEventListener('DOMContentLoaded', () => {
     const btnGoWeb = [
@@ -52,6 +70,27 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('btnDicodingLearn10')
     ];
 
+    const btnDicodingCSS = [
+        document.getElementById('btnDicodingLearnCSS_1'),
+        document.getElementById('btnDicodingLearnCSS_2'),
+        document.getElementById('btnDicodingLearnCSS_3'),
+        document.getElementById('btnDicodingLearnCSS_4'),
+        document.getElementById('btnDicodingLearnCSS_5'),
+        document.getElementById('btnDicodingLearnCSS_6'),
+        document.getElementById('btnDicodingLearnCSS_7'),
+        document.getElementById('btnDicodingLearnCSS_8'),
+        document.getElementById('btnDicodingLearnCSS_9'),
+        document.getElementById('btnDicodingLearnCSS_10')
+    ];
+
+    const btnDicodingProject = [
+        document.getElementById('btnDicodingProject1'),
+        document.getElementById('btnDicodingProject2'),
+        document.getElementById('btnDicodingProject3')
+    ];
+
     globalMyProjectVisiter(btnGoWeb);
     visiterDicodingHTML(btnDicodingHTML)
+    visiterDicodingCSS(btnDicodingCSS);
+    visiterDicodingProject(btnDicodingProject);
 });

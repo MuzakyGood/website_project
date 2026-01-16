@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #ebebeb;
+}
+
+/* HEADER */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* NAV HOVER ANIMATION */
+nav ul li a {
+    position: relative;
+    padding: 0.3rem 0.6rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* MAIN */
+main {
+    color: black;
+    padding: 1.5rem;
+}
+
+.container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* ARTICLE */
+article {
+    flex: 3;
+    background-color: white;
+    padding: 1rem;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+article h2 {
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    text-align: left;
+}
+
+.paragraph {
+    text-indent: 55px;
+}
+
+/* ASIDE */
+aside {
+    flex: 1;
+    font-size: 15px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+aside ul {
+    list-style: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+    header h1 {
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    aside img {
+        display: block;
+        width: 35%;
+        margin: 0 auto 1rem;
+    }
+}
+
+@media (hover: hover) {
+    nav ul li a:hover::after {
+        width: 100%;
+    }
+}

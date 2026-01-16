@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Minecraft Font";
+    src: url('font/MinecraftTen-VGORe.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* Import font */
+
+.minecraftFont {
+    font-family: "Minecraft Font";
+}
+
+.caveatFont {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Font-weight */
+
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.fw100 {
+  font-weight: 100;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
+.fw300 {
+  font-weight: 300;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.fw800 {
+  font-weight: 800;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
+/* Font-style */
+
+.normalStyle {
+  font-style: normal;
+}
+
+.italicStyle {
+  font-style: italic;
+}
+
+.obliqueStyle {
+  font-style: oblique;
+}
+
+/* Text Alignment */
+
+.mainAlign {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.tl-left, .tl-right, .tl-center, .tl-justify {
+  border: 1px solid black;
+}
+
+.tl-left {
+  text-align: left;
+}
+
+.tl-right {
+  text-align: right;
+}
+
+.tl-center {
+  text-align: center;
+}
+
+.tl-justify {
+  text-align: justify;
+}
+
+/* text Shadow */
+
+.mainShadow {
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+.oneShadow {
+  text-shadow: 2px 2px 0px #000000;
+  background-color: #eeeeee;
+  color: #666666;
+}
+
+.twoShadow {
+  text-shadow: 4px 4px 3px #666666;
+  background-color: #dddddd;
+  color: #666666;
+}
+
+.threeShadow {
+  text-shadow: 4px 4px 7px #111111;
+  background-color: #cccccc;
+  color: #ffffff;
+}
+
+.fourShadow {
+  text-shadow: -2px -2px #666666;
+  background-color: #cccccc;
+  color: #bbbbbb;
+}
