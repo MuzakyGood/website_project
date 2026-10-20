@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restfull API</title>
+</head>
+<body>
+    
+    <!-- Header website -->
+    <header>
+        <img src="img/springboot.webp" alt="Springboot">
+    </header>
+
+    <!-- Navigation website -->
+    <nav>
+        <a href="#getMethodTitle">GET</a>
+        <a href="#postMethodTitle">POST</a>
+        <a href="#putMethodTitle">PUT</a>
+        <a href="#deleteMethodTitle">DELETE</a>
+    </nav>
+
+    <!-- Main website -->
+    <main>
+
+        <section class="requirementDetails">
+
+            <h1>RESTFULL TESTING</h1>
+
+            <div class="details">
+                <legend><b>Details Target</b></legend>
+                <ul class="content">
+                    <li>Framework: Springboot v4.0.3</li>
+                    <li>Depedency: Spring Web</li>
+                    <li>Language: Java v21</li>
+                    <li>Build Automation: Gradle</li>
+                    <li>Local url: http://127.0.0.1:8080/api/data/{1}</li>
+                </ul>
+            </div>
+
+            <div class="exampleRestfull">
+                <p>Restfull api must like this:</p>
+                <textarea rows="10" cols="48" readonly>[
+    {
+        "id":0,
+        "data":"Example data rest api batch 1"
+    },
+    {
+        "id":1,
+        "data":"Example data rest api batch 2"
+    }
+]</textarea>
+            </div>
+
+        </section>
+
+        <!-- Input and trigger event section -->
+        <section class="inputSection">
+
+            <div class="getMethodStyle">
+                <h3 id="getMethodTitle">Method Get</h3>
+                <p><i>Info: Method that is useful for obtaining data.</i></p>
+                <input id="inputFormGET" placeholder="Id data">
+                <button id="getBtn">GET</button>
+            </div>
+
+            <div class="postMethodStyle">
+                <h3 id="postMethodTitle">Method Post</h3>
+                <p><i>Info: Method that is useful for adding new data.</i></p>
+                <input id="inputFormPOST" placeholder="Data value">
+                <button id="postBtn">POST</button>
+            </div>
+
+            <div class="putMethodStyle">
+                <h3 id="putMethodTitle">Method Put</h3>
+                <p><i>Info: Method that is useful for replace data.</i></p>
+                <input id="inputIdFormPUT" placeholder="Id data">
+                <input id="inputDataFormPUT" placeholder="Data value">
+                <button id="putBtn">PUT</button>
+            </div>
+
+            <div class="deleteMethodStyle">
+                <h3 id="deleteMethodTitle">Method Delete</h3>
+                <p><i>Info: Method that is useful for deleting data.</i></p>
+                <input id="inputFormDelete" placeholder="Id data">
+                <button id="deleteBtn">DELETE</button>
+            </div>
+
+        </section>
+
+        <!-- Output section -->
+        <section class="outputSection">
+
+        </section>
+
+    </main>
+
+    <!-- Footer website -->
+    <footer>
+        <p>Free Copyright &copy 2026 Zach Noland</p>
+    </footer>
+
+</body>
+</html>

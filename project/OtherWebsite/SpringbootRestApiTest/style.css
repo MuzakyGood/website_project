@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header img {
+    margin: 0;
+
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 10px black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(to right,  #048100, rgb(2, 61, 0));
+}
+
+nav a {
+    margin: 5px;
+    padding: 3px;
+    text-decoration: none;
+
+    color: white;
+
+    border-radius: 3px;
+    box-shadow: 0 0 5px black;
+    background-color: green;
+}
+
+nav a:hover {
+    transition: 0.3s;
+    color: black;
+    box-shadow: none;
+    background-color: lime;
+}
+
+nav a:active {
+    transition: 0.1s;
+    background-color: yellow;
+}
+
+main {
+    flex: 1;
+}
+
+main .requirementDetails {
+    margin-top: 0;
+    padding: 15px;
+
+    color: white;
+
+    background-image: linear-gradient(to right,  #048100, rgb(2, 61, 0));
+}
+
+main .requirementDetails h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+main .requirementDetails .details details {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+main .requirementDetails .details details summary {
+    font-weight: bold;
+}
+
+main .requirementDetails .details .content {
+
+    list-style-type: "👉 ";
+
+    color: lime;
+    font-family: monospace;
+
+    max-height: 500px;
+    opacity: 1;
+
+    width: 65%;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+main .requirementDetails .exampleRestfull textarea {
+    resize: none;
+    overflow: auto;
+
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+main .inputSection {
+    margin: 15px;
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    background-image: linear-gradient(to right,  #048100, rgb(2, 61, 0));
+}

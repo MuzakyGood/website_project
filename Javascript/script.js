@@ -45,6 +45,10 @@ const visiterDicodingProject = (btnProject) => {
     visitTo(btnProject[2], 'Dicoding_Frontend/D.Project/03.profil_developer/index.html');
 }
 
+const visiterWebBlog = (btnObject) => {
+    visitTo(btnWebBlog[0], 'BlogWebsites/Life_Fullstack_Dev/index.html');
+}
+
 // Main Code
 document.addEventListener('DOMContentLoaded', () => {
     const btnGoWeb = [
@@ -89,8 +93,13 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('btnDicodingProject3')
     ];
 
+    const btnWebBlog = [
+        document.getElementById('btnBlog1')
+    ];
+
     globalMyProjectVisiter(btnGoWeb);
     visiterDicodingHTML(btnDicodingHTML)
     visiterDicodingCSS(btnDicodingCSS);
     visiterDicodingProject(btnDicodingProject);
+    visiterWebBlog(btnWebBlog);
 });
