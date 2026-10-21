@@ -76,8 +76,25 @@ footer {
     background-color: #ffffff;
     border-top: 1px solid #e2e8f0;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     color: #64748b;
     font-size: 14px;
     width: 100%;
+}
+
+.github-pages-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    color: #334155;
+    text-decoration: none;
+}
+
+.github-pages-badge svg {
+    width: 20px;
+    height: 20px;
+    flex: none;
 }

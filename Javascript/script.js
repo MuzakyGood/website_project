@@ -45,7 +45,7 @@ const visiterDicodingProject = (btnProject) => {
     visitTo(btnProject[2], 'Dicoding_Frontend/D.Project/03.profil_developer/index.html');
 }
 
-const visiterWebBlog = (btnObject) => {
+const visiterWebBlog = (btnWebBlog) => {
     visitTo(btnWebBlog[0], 'BlogWebsites/Life_Fullstack_Dev/index.html');
 }
 
