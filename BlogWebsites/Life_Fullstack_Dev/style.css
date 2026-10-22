@@ -196,10 +196,13 @@ main {
     box-shadow: var(--author-tag-shadow);
 }
 
-.authortag svg {
-    width: 20px;
-    height: 20px;
-    flex: none;
+.authortag > svg {
+    display: block;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    flex: 0 0 16px;
 }
 
 footer {
