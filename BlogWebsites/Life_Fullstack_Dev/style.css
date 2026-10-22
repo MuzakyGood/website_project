@@ -16,6 +16,9 @@
     --footer-color: #64748b;
     --badge-border-color: #cbd5e1;
     --badge-color: #334155;
+    --author-tag-background: #e0f2fe;
+    --author-tag-color: #075985;
+    --author-tag-shadow: 0 2px 8px rgba(14, 116, 144, 0.16);
     --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
 }
 
@@ -31,6 +34,9 @@
     --footer-color: #94a3b8;
     --badge-border-color: #475569;
     --badge-color: #e2e8f0;
+    --author-tag-background: #164e63;
+    --author-tag-color: #cffafe;
+    --author-tag-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.25), 0 2px 4px -1px rgba(0, 0, 0, 0.18);
 }
 
@@ -176,6 +182,24 @@ main {
 
 .timeline-block p {
     color: var(--content-color);
+}
+
+.authortag {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    background-color: var(--author-tag-background);
+    color: var(--author-tag-color);
+    text-decoration: none;
+    box-shadow: var(--author-tag-shadow);
+}
+
+.authortag svg {
+    width: 20px;
+    height: 20px;
+    flex: none;
 }
 
 footer {
